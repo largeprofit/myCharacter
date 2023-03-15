@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+.myCharacter {
+  position: relative;
+  margin: 200px auto;
+  width: 400px;
+  height: 400px;
+}
+
+.face {
+  position: absolute;
+  width: 400px;
+  height: 350px;
+  border-radius: 100% 100% 30% 30%;
+  border: 10px solid black;
+  background-color: rgb(255, 198, 124);
+  box-shadow: inset 0 0 10px black;
+}
+
+.hair {
+  position: absolute;
+  border-left: 7px solid black;
+  height: 30px;
+}
+
+.hair.left {
+  left: 180px;
+  top: -20px;
+  transform: rotate(-45deg);
+}
+
+.hair.center {
+  left: 196px;
+  top: -30px;
+}
+
+.hair.right {
+  right: 180px;
+  top: -20px;
+  transform: rotate(45deg);
+}
+.eye {
+  position: absolute;
+  top: 155px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.eye.left {
+  left: 100px;
+}
+
+.eye.right {
+  right: 100px;
+}
+
+.cheek {
+  position: absolute;
+  top: 210px;
+  box-shadow: 0 0 50px 25px salmon;
+  border-radius: 50%;
+}
+
+.cheek.left {
+  left: 80px;
+}
+
+.cheek.right {
+  right: 80px;
+}
+
+.mouth {
+  position: absolute;
+  left: 140px;
+  top: 210px;
+  width: 100px;
+  border-bottom: 10px solid black;
+  border-radius: 0 0 50% 50%;
+}
