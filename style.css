@@ -80,5 +80,9 @@
   top: 210px;
   width: 100px;
   border-bottom: 10px solid black;
+  border-radius: 50% 50% 0 0;
+}
+
+.face:hover .mouth {
   border-radius: 0 0 50% 50%;
 }
